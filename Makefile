@@ -2,7 +2,7 @@ CFLAGS = -I. -I/usr/local/include -O3 -g
 
 all: junk
 
-sob: junk.c 
+junk: junk.c 
 	$(CC) $(CFLAGS) -o junk junk.c $(LIBS)
 
 install:
